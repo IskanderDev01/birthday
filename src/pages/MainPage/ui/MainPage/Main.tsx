@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import photo1 from '../../../../shared/assets/photo1.png';
-import photo2 from '../../../../shared/assets/p4.jpg';
+import photo2 from '../../../../shared/assets/p4.png';
 import ramka from '../../../../shared/assets/ramka2.png';
 
 export const Main = () => {
