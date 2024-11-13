@@ -42,7 +42,7 @@ export const The_Wedding = ({ img }: { img: string }) => {
             }}
         >
             <Canvas>
-                <ambientLight intensity={5} />{' '}
+                <ambientLight intensity={4} />{' '}
                 {/* Уменьшена интенсивность света */}
                 <pointLight position={[10, 10, 10]} />
                 <RotatingPlane img={img} />

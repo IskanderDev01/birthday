@@ -4,6 +4,9 @@ import { InvitationForm } from './Forma';
 import { The_Wedding } from './The_Weddig';
 import photo1 from '../../../../shared/assets/p3.jpg';
 import { Main } from './Main';
+import { Our_story } from './Our_story';
+import photophoto from '../../../../shared/assets/p6.jpg';
+
 
 export const WeddingInvitation = () => {
     return (
@@ -11,6 +14,8 @@ export const WeddingInvitation = () => {
             <Main />
             <Block_1 />
             <The_Wedding img={photo1} />
+            <Our_story />
+            <The_Wedding img={photophoto} />
             <InvitationForm />
             <Ceremony />
         </div>

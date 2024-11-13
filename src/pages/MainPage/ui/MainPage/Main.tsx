@@ -81,7 +81,7 @@ export const Main = () => {
             }}
         >
             <div
-                className="text-[24px] text-center p-6 mb-5 h-[170px] bg-contain bg-animation"
+                className="text-[24px] text-center p-6 mb-5 h-[60px] bg-contain bg-animation"
                 style={{
                     backgroundImage: `url(${photo1})`,
                     backgroundRepeat: 'no-repeat',

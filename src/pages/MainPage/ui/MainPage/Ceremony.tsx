@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import photo1 from '../../../../shared/assets/photo1.png';
 import drink from '../../../../shared/assets/p5.jpg';
-import ceremony from '../../../../shared/assets/p2.jpg';
+import ceremony from '../../../../shared/assets/p1.jpg';
 
 export const Ceremony = () => {
     const drinkRef = useRef<HTMLImageElement>(null);
@@ -105,14 +105,8 @@ export const Ceremony = () => {
             <div ref={drinksTextRef} className="text-[24px] text-center">
                 Начало
             </div>
-            <div ref={timeRef1} className="text-center pt-1 font-semibold">
-                18:00
-            </div>
-            <div ref={ceremonyTextRef} className="text-[24px] pt-5 text-center">
-                Церемония
-            </div>
-            <div ref={timeRef2} className="text-center pt-1 pb-5 font-semibold">
-                19:00
+            <div ref={timeRef1} className="text-center pt-1 pb-4 font-semibold">
+                21:00
             </div>
 
             <img
